@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link
+            rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:ital,wght@0,200;0,300;0,500;1,200&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/public/style.css">
+        <title>LinguaChat Vanilla</title>
+    </head>
+    <body>
+        <header>
+
+            <nav class="nav-menu">
+
+                <ul class="my-nav nav-open">
+                    <li><a href="index.html">Post of the Day</a></li>
+                    <li><a href="cardgame.html">Card Game</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+            <i class="my-nav fa fa-bars hamburger-icon"></i>
+        </header>
+
+        <main class="all-blogs">
+            <div class="one-blog">
+                <div class="blog-template blog-title">
+                    <h3>Today I learnt future tense of Spanish</h3>
+                    <!-- placeholder what did you do today -->
+                </div>
+
+                <div class="blog-template blog-content">
+                    <div class="blog-template blog-media">
+
+                        <img src="./img/Screenshot (1).png">
+                    </div>
+                    <p>As you can see in the picture, I have had difficulties
+                        learning the -ir future tense verb conjugation. Has
+                        anybody got a clue or tip for me? I'd love to help you
+                        out with English in exchange.
+                    </p>
+                </div>
+                <footer>
+                    <div class="blog-template blog-response">
+                        <p class="to-like">like❤️<b class="like-count">(0)</b></p>
+                        <p class="to-comment" id="to-comment"
+                            onclick="showHideComments()">comment🔊<b
+                                class="comment-count">(0)</b></p>
+                        <p class="to-share">share↗️</p>
+                    </div>
+                    <div class="comments" id="comments">
+                        <p class="add-comment"><input type="text"
+                                class="adding-comment" placeholder="add your
+                                comment here" /input></p>
+                        <p class="comment">this is a comment</p>
+                        <p class="comment">this is another comment</p>
+                    </div>
+                </footer>
+            </div>
+
+        </main>
+   <div class="create-new-post">
+    <button class="create-new-post-btn">Create</button>
+   </div>
+        <footer>
+            <script src="/public/scripts.js"></script>
+        </footer>
+    </body>
+</html>
