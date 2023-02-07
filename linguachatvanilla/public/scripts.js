@@ -39,13 +39,9 @@ frontFace.classList.add('front-face')
 frontFace.innerText = allWords[randomNumber] //???????
 // backFace.classList.add('one-card')
 backFace.classList.add('back-face')
-backFace.style.backgroundImage = "url('http:///192.168.30.157:8080/backImage.png')"
-// backFace.addEventListener('click', ()=>{
-//     backFace.style.backgroundImage= "none"
-//     backFace.style.backgroundColor = "rgb(18, 43, 29)";
-//     // d.innerText=allWords[randomNumber]
-// }
-// )
+// backFace.style.backgroundImage = "url('http:///192.168.30.157:8080/backImage.png')"
+backFace.style.backgroundImage = "url('./img/backImage.png')"
+
 
 memoryCard.appendChild(backFace)
 memoryCard.appendChild(frontFace)

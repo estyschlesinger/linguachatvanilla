@@ -43,7 +43,7 @@
                         <ul class="sub-menu-full">
                             <li class="sub-menu-item"><a href="about.html">About</a></li>
                             <li class="sub-menu-item"><a href="cardgame.html">Contact</a></li>
-                            <!-- <li class="sub-menu-item"><a href="cardgame.html">Card Game</a></li> -->
+                            <li class="sub-menu-item"><a href="cardgame.html">Card Game</a></li>
                             <li class="sub-menu-item"><a href="cardgame.html">How To</a></li>
                            </ul>
                     </li>
@@ -55,33 +55,47 @@
             </nav>
             <i class="fa fa-bars"></i>
         </header>
-        <main>
-            <div class="full-container">
-               <div class="squares-container">
-                <div class="container-item square">
 
+        <main class="all-blogs">
+            <div class="one-blog">
+                <div class="blog-template blog-title">
+                    <h3>Today I learnt future tense of Spanish</h3>
+                    <!-- placeholder what did you do today -->
                 </div>
-                <div class="container-item square">
-                    
-                </div>
-                <div class="container-item square">
-                    
-                </div>
-                <div class="container-item square">
-                    
-                </div>
-               </div>
-               <div class="container-item rectangle under">
 
-               </div>
-               <div class="container-item rectangle aside">
+                <div class="blog-template blog-content">
+                    <div class="blog-template blog-media">
 
-               </div>
+                        <img src="./img/Screenshot (1).png">
+                    </div>
+                    <p>As you can see in the picture, I have had difficulties
+                        learning the -ir future tense verb conjugation. Has
+                        anybody got a clue or tip for me? I'd love to help you
+                        out with English in exchange.
+                    </p>
+                </div>
+                <footer>
+                    <div class="blog-template blog-response">
+                        <p class="to-like large-screens">like❤️<b class="like-count">(0)</b></p>
+                        <p class="to-comment" id="to-comment"
+                            onclick="showHideComments()">comment🔊<b
+                                class="comment-count">(0)</b></p>
+                        <p class="to-share">share↗️</p>
+                    </div>
+                    <div class="comments" id="comments">
+                        <p class="add-comment"><input type="text"
+                                class="adding-comment" placeholder="add your
+                                comment here" /input></p>
+                        <p class="comment">this is a comment</p>
+                        <p class="comment">this is another comment</p>
+                    </div>
+                </footer>
             </div>
+
         </main>
-        <!-- <footer>
-            <i class="fa-brands fa-instagram"></i>
-        </footer> -->
+   <div class="create-new-post">
+    <button class="create-new-post-btn">Create</button>
+   </div>
         <footer>
             <script src="/public/scripts.js"></script>
         </footer>
