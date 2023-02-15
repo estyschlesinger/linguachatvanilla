@@ -19,42 +19,80 @@
         <nav class="nav-menu">
             <ul class="menu-full">
                 <li class="menu-item"><a href="index.html">Home</a></li>
-                <li class="menu-item">
-                    <a href="chatMenu.html">Lingua-Chat</a>
-                    <!-- <ul class="sub-menu-full">
-                        <li class="sub-menu-item"><a href="post.html">New Post</a></li>
-                        <li class="sub-menu-item"><a href="cardgame.html">Card Game</a></li>
-                        <li class="sub-menu-item"><a href="cardgame.html">Card Game</a></li>
-                        <li class="sub-menu-item"><a href="cardgame.html">Card Game</a></li>
-                       </ul> -->
-                </li>
+                <li class="menu-item has-sub-menu">
+                    <a>Lingua-Chat</a>
+                <ul class="sub-menu-full large-menu">
+                    <li class="has-sub-menu large-menu-item"><a>Lingua-Post</a>
+                        <ul>
+                            <li class="sub-menu-item"><a href="cardgame.html">New Post</a></li>
+                            <li class="sub-menu-item"><a href="hangman.html">Post of the Day</a></li>
+                            <li class="sub-menu-item"><a href="cardgame.html">My Feed</a></li>
+                            <!-- <li class="sub-menu-item"><a href="cardgame.html">Card Game</a></li> -->
+                           </ul>
+                    </li>
+                    <li  class="has-sub-menu large-menu-item"><a>Lingua-Chat</a>
+                        <ul>
+                            <li class="sub-menu-item"><a href="cardgame.html">My Chats</a></li>
+                            <li class="sub-menu-item"><a href="hangman.html">Community</a></li>
+                            <li class="sub-menu-item"><a href="cardgame.html">Bin</a></li>
+                            <li class="sub-menu-item"><a href="cardgame.html">Chat Settings</a></li>
+                           </ul>
+                    </li>
+                    <li  class="has-sub-menu large-menu-item"><a>Lingua-Learn</a>
+                        <ul>
+                            <li class="sub-menu-item"><a href="cardgame.html">Translator</a></li>
+                            <li class="sub-menu-item"><a href="hangman.html">Learn</a></li>
+                            <li class="sub-menu-item"><a href="cardgame.html">Vocab</a></li>
+                            <li class="sub-menu-item"><a href="cardgame.html">Dictionary</a></li>
+                            <li class="sub-menu-item"><a href="cardgame.html">Dashboard</a></li>
+                          
+                        </ul>
+                    </li>
+                </ul>
+            </li>
                 <!-- <li  class="menu-item"><a href="post.html">Lingua-Learn</a></li> -->
                 <li  class="menu-item has-sub-menu"> 
                     <a>Lingua-Play</a>
                     <ul class="sub-menu-full">
-                     <li class="sub-menu-item"><a href="index.html">home page</a></li>
-                     <li class="sub-menu-item"><a href="cardgame.html">Card Game</a></li>
-                     <li class="sub-menu-item"><a href="cardgame.html">Card Game</a></li>
-                     <li class="sub-menu-item"><a href="cardgame.html">Card Game</a></li>
+                     <li class="sub-menu-item"><a href="cardgame.html">Memory Game</a></li>
+                     <li class="sub-menu-item"><a href="hangman.html">Hangman</a></li>
+                     <li class="sub-menu-item"><a href="cardgame.html">Complete the Sentence (choose)</a></li>
+                     <!-- <li class="sub-menu-item"><a href="cardgame.html">Card Game</a></li> -->
                     </ul>
                 </li>
                 <li class="menu-item has-sub-menu">
                     <a>More</a>
                     <ul class="sub-menu-full">
                         <li class="sub-menu-item"><a href="about.html">About</a></li>
-                        <li class="sub-menu-item"><a href="cardgame.html">Contact</a></li>
-                        <li class="sub-menu-item"><a href="cardgame.html">Card Game</a></li>
+                        <li class="sub-menu-item"><a href="about.html#contact">Contact</a></li>
+                        <!-- <li class="sub-menu-item"><a href="cardgame.html">Card Game</a></li> -->
                         <li class="sub-menu-item"><a href="cardgame.html">How To</a></li>
                        </ul>
                 </li>
-               <li class="menu-item">
-                <i class="fa fa-user" aria-hidden="true"></i>
-                <i class="fa fa-cog" aria-hidden="true"></i>
+                <div class="has-icons">
+               <li class="menu-item has-sub-menu has-icon">
+               <a> <i class="fa fa-user has-sub-menu" aria-hidden="true"></i></a>
+                <ul class="fa-user-full-dropdown sub-menu-full">
+                    <li class="sub-menu-item fa-user-dropdown-item"><a>My Profile</a></li>
+                    <li class="sub-menu-item fa-user-dropdown-item"><a>My Account</a></li>
+                    <li class="sub-menu-item fa-user-dropdown-item"><a>Log Out</a></li>
+                </ul>
+                </li>
+                <li class="menu-item has-icon">
+                <a href="settings.html"><i class="fa fa-cog has-sub-menu" aria-hidden="true"></i></a>
+                <!-- <ul class="fa-cog-full-dropdown sub-menu-full">
+                    <li class="sub-menu-item fa-user-dropdown-item"><a>Settings</a></li>
+                    <li class="sub-menu-item fa-user-dropdown-item"><a>General</a></li>
+
+                    <li class="sub-menu-item fa-user-dropdown-item"><a>Delete Account</a></li>
+                </ul> -->
             </li>
+        </div>
             </ul>
         </nav>
         <i class="fa fa-bars"></i>
     </header>
+    <p>jump to <a href="#contact"> our contact details</a></p>
     <div class="full-about">
         <div class="about-title">
             <h1>LinguaChat</h1>
@@ -63,20 +101,33 @@
           <h2>About</h2>  
         </div>
         <div class="about-body">
-          
+            <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam voluptates consequuntur modi debitis veritatis voluptas, facere quibusdam a exercitationem pariatur delectus unde fuga rerum doloremque dolores minima, sunt ea quis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia soluta expedita in velit accusamus, quas at dolores! Assumenda nulla eius dolorem non nostrum nam error sit, officia, veritatis culpa exercitationem.
+                Illo ad officiis nam incidunt in possimus deserunt, doloribus sunt cupiditate dolor atque quis dolorem fuga cum deleniti. Recusandae sunt repellat autem distinctio alias at, et obcaecati quibusdam vitae rem!
+                Molestias cupiditate labore veritatis consequuntur, unde amet aspernatur fugiat ipsa tempore quod quo hic quae deleniti? Magni aperiam itaque earum illum qui, sint voluptate modi accusamus architecto nostrum quas in.
+                Autem laborum nesciunt, vero amet corrupti incidunt assumenda, nisi minima explicabo neque error, numquam dicta quo eveniet veniam nam mollitia veritatis esse. Adipisci, quod incidunt consectetur saepe cupiditate modi ullam!
+                Vel provident numquam esse harum culpa vero ab excepturi quisquam illum velit? Aliquid id repudiandae ullam iusto, maxime fuga iste odit cum. Dignissimos sapiente, ipsam quod aspernatur omnis ab! Labore!
+                Fugit rem explicabo neque facere similique? Saepe eligendi deserunt voluptas nisi incidunt, minima magnam deleniti necessitatibus rem ea debitis soluta tempore quasi vero placeat porro. Delectus, necessitatibus? Assumenda, totam cum!
+                Doloremque soluta unde rerum. Aliquam amet perspiciatis impedit ipsum in expedita eos voluptas a placeat exercitationem quaerat, quasi nihil et incidunt ipsa numquam hic? Neque nostrum consequuntur odit deleniti sint?
+                Hic saepe, placeat accusamus laudantium amet iure corrupti obcaecati expedita dolores, dolore, voluptates doloribus provident voluptas quis quae omnis? Explicabo debitis eum aspernatur facilis, libero nisi sunt excepturi illum minima.
+                Pariatur deserunt assumenda magnam odio obcaecati mollitia minima ipsum dolore possimus dolores, aut at. Corporis ea, natus reprehenderit minima officia expedita non totam tempora, magnam deleniti doloremque ad. Ea, neque?
+                Nulla eum fuga, accusantium aut voluptates officiis vero ad quaerat reiciendis illo nam repellendus, temporibus commodi dolores odit, culpa consectetur earum. Assumenda omnis possimus porro quisquam minus. Voluptatem, saepe in!</div>
         </div>
         <div class="contact-sub">
-           <h2>Contact</h2> 
-        </div>
-        <div class="contact-body">
-            <ul>
-           <li>Chat to Us:</li> 
-           <li>Phone:</li> 
-          <li>Email:</li> 
-           <li>Write to Us:</li> 
-            <li>Follow us:</li> 
-           </ul>
+          
 
+
+<div id="contact">Contact</div>
+<h2>Contact</h2> 
+</div>
+<div class="contact-body">
+    <ul>
+   <li>Chat to Us:</li> 
+   <li>Phone:</li> 
+  <li>Email:</li> 
+   <li>Write to Us:</li> 
+    <li>Follow us:</li> 
+    
+   </ul>
         </div>
     </div>
     <footer>

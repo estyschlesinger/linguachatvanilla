@@ -9,8 +9,11 @@
             rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link
             href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:ital,wght@0,200;0,300;0,500;1,200&display=swap"
             rel="stylesheet">
+        <!-- <link rel="stylesheet" href="https://kit.fontawesome.com/6fb37db61a.css" crossorigin="anonymous"> -->
+
         <link rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
         <link rel="stylesheet" href="/public/style.css">
         <title>LinguaChat Vanilla</title>
     </head>
@@ -19,64 +22,111 @@
             <nav class="nav-menu">
                 <ul class="menu-full">
                     <li class="menu-item"><a href="index.html">Home</a></li>
-                    <li class="menu-item">
-                        <a href="chatMenu.html">Lingua-Chat</a>
-                        <!-- <ul class="sub-menu-full">
-                            <li class="sub-menu-item"><a href="post.html">New Post</a></li>
-                            <li class="sub-menu-item"><a href="cardgame.html">Card Game</a></li>
-                            <li class="sub-menu-item"><a href="cardgame.html">Card Game</a></li>
-                            <li class="sub-menu-item"><a href="cardgame.html">Card Game</a></li>
-                           </ul> -->
-                    </li>
+                    <li class="menu-item has-sub-menu">
+                        <a>Lingua-Chat</a>
+                    <ul class="sub-menu-full large-menu">
+                        <li class="has-sub-menu large-menu-item"><a>Lingua-Post</a>
+                            <ul>
+                                <li class="sub-menu-item"><a href="cardgame.html">New Post</a></li>
+                                <li class="sub-menu-item"><a href="hangman.html">Post of the Day</a></li>
+                                <li class="sub-menu-item"><a href="cardgame.html">My Feed</a></li>
+                                <!-- <li class="sub-menu-item"><a href="cardgame.html">Card Game</a></li> -->
+                               </ul>
+                        </li>
+                        <li  class="has-sub-menu large-menu-item"><a>Lingua-Chat</a>
+                            <ul>
+                                <li class="sub-menu-item"><a href="cardgame.html">My Chats</a></li>
+                                <li class="sub-menu-item"><a href="hangman.html">Community</a></li>
+                                <li class="sub-menu-item"><a href="cardgame.html">Bin</a></li>
+                                <li class="sub-menu-item"><a href="cardgame.html">Chat Settings</a></li>
+                               </ul>
+                        </li>
+                        <li  class="has-sub-menu large-menu-item"><a>Lingua-Learn</a>
+                            <ul>
+                                <li class="sub-menu-item"><a href="cardgame.html">Translator</a></li>
+                                <li class="sub-menu-item"><a href="hangman.html">Learn</a></li>
+                                <li class="sub-menu-item"><a href="cardgame.html">Vocab</a></li>
+                                <li class="sub-menu-item"><a href="cardgame.html">Dictionary</a></li>
+                                <li class="sub-menu-item"><a href="cardgame.html">Dashboard</a></li>
+                              
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
                     <!-- <li  class="menu-item"><a href="post.html">Lingua-Learn</a></li> -->
                     <li  class="menu-item has-sub-menu"> 
                         <a>Lingua-Play</a>
                         <ul class="sub-menu-full">
-                         <li class="sub-menu-item"><a href="index.html">home page</a></li>
-                         <li class="sub-menu-item"><a href="cardgame.html">Card Game</a></li>
-                         <li class="sub-menu-item"><a href="cardgame.html">Card Game</a></li>
-                         <li class="sub-menu-item"><a href="cardgame.html">Card Game</a></li>
+                         <li class="sub-menu-item"><a href="cardgame.html">Memory Game</a></li>
+                         <li class="sub-menu-item"><a href="hangman.html">Hangman</a></li>
+                         <li class="sub-menu-item"><a href="cardgame.html">Complete the Sentence (choose)</a></li>
+                         <!-- <li class="sub-menu-item"><a href="cardgame.html">Card Game</a></li> -->
                         </ul>
                     </li>
                     <li class="menu-item has-sub-menu">
                         <a>More</a>
                         <ul class="sub-menu-full">
                             <li class="sub-menu-item"><a href="about.html">About</a></li>
-                            <li class="sub-menu-item"><a href="cardgame.html">Contact</a></li>
+                            <li class="sub-menu-item"><a href="about.html#contact">Contact</a></li>
                             <!-- <li class="sub-menu-item"><a href="cardgame.html">Card Game</a></li> -->
                             <li class="sub-menu-item"><a href="cardgame.html">How To</a></li>
                            </ul>
                     </li>
-                   <li class="menu-item">
-                    <i class="fa fa-user" aria-hidden="true"></i>
-                    <i class="fa fa-cog" aria-hidden="true"></i>
+                    <div class="has-icons">
+                   <li class="menu-item has-sub-menu has-icon">
+                   <a> <i class="fa fa-user has-sub-menu" aria-hidden="true"></i></a>
+                    <ul class="fa-user-full-dropdown sub-menu-full">
+                        <li class="sub-menu-item fa-user-dropdown-item"><a ">My Profile</a></li>
+                        <li class="sub-menu-item fa-user-dropdown-item"><a>My Account</a></li>
+                        <li class="sub-menu-item fa-user-dropdown-item"><a>Log Out</a></li>
+                    </ul>
+                    </li>
+                    <li class="menu-item has-icon">
+                    <a href="settings.html"><i class="fa fa-cog has-sub-menu" aria-hidden="true"></i></a>
+                    <!-- <ul class="fa-cog-full-dropdown sub-menu-full">
+                        <li class="sub-menu-item fa-user-dropdown-item"><a>Settings</a></li>
+                        <li class="sub-menu-item fa-user-dropdown-item"><a>General</a></li>
+
+                        <li class="sub-menu-item fa-user-dropdown-item"><a>Delete Account</a></li>
+                    </ul> -->
                 </li>
+            </div>
                 </ul>
             </nav>
             <i class="fa fa-bars"></i>
         </header>
-        <main>
+        <!-- <p>jump to <a href="#section2">section 2</a></p> -->
+        <main >
             <div class="full-container">
                <div class="squares-container">
                 <div class="container-item square">
-
+                    <i class="fa-regular fa-comment fa-7x"></i>
+                    <p>Chat</p>
                 </div>
                 <div class="container-item square">
-                    
+                    <i class="fa-solid fa-school fa-7x"></i>
+                    <p>Learn</p>
                 </div>
                 <div class="container-item square">
-                    
+                    <i class="fa fa-solid fa-gamepad fa-7x"></i>
+                    <p>Play</p>
                 </div>
                 <div class="container-item square">
-                    
+                    <i class="fa fa-solid fa-rss fa-7x"></i>
+                    <p>Post</p>
                 </div>
                </div>
                <div class="container-item rectangle under">
-
+          <img src="/public/img/logo.png">
                </div>
                <div class="container-item rectangle aside">
-
-               </div>
+                <p>I want to learn:</p>
+                <!-- <div class="lang-item"> <img src="/public/img/russia.png"> <p>Russian</p></div> -->
+                <div class="lang-item"><img src="/public/img/united-kingdom.png"><p>English</p></div>
+                <div class="lang-item"><img src="/public/img/france.png"><p>French</p></div>
+                <div class="lang-item"><img src="/public/img/spain.png"><p>Spanish</p></div>
+                <div class="lang-item"><img src="/public/img/israel.png"><p>Hebrew</p></div>
+            </div>
             </div>
         </main>
         <!-- <footer>
